@@ -1,0 +1,21 @@
+{
+  "name": "appx",
+  "version": "1.0.0",
+  "description": "just an application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Meherab",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemailer": "^6.8.0",
+    "validator": "^13.7.0"
+  }
+}
